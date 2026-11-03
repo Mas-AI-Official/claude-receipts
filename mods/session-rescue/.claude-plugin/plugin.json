@@ -1,0 +1,7 @@
+{
+  "name": "session-rescue",
+  "version": "0.1.0",
+  "description": "Crash-safe, redacted checkpoints of a session's work; offers unfinished or unverified work to the next session in the folder and never reruns a destructive step without approval.",
+  "author": { "name": "MAS-AI Technologies" },
+  "types": "./types/index.d.ts"
+}

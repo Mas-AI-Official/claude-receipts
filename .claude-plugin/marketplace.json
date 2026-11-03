@@ -1,0 +1,19 @@
+{
+  "name": "claude-receipts",
+  "description": "Claude Code mods that make your agent show receipts: evidence-gated completion claims and crash-safe session rescue.",
+  "owner": {
+    "name": "MAS-AI Technologies"
+  },
+  "plugins": [
+    {
+      "name": "test-truth-gate",
+      "source": "./mods/test-truth-gate",
+      "description": "Records every test, API check and render result, marks it stale when files change, and refuses a success claim the evidence does not hold"
+    },
+    {
+      "name": "session-rescue",
+      "source": "./mods/session-rescue",
+      "description": "Crash-safe, redacted checkpoints of a session's work; offers unfinished or unverified work to the next session in the folder and never reruns a destructive step without approval."
+    }
+  ]
+}

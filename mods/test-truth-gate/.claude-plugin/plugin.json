@@ -1,0 +1,7 @@
+{
+  "name": "test-truth-gate",
+  "version": "0.1.0",
+  "description": "Records every test, API check and render result, marks it stale when files change, and refuses a success claim the evidence does not hold",
+  "author": { "name": "MAS-AI Technologies" },
+  "types": "./types/index.d.ts"
+}
